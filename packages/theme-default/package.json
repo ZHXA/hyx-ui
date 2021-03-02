@@ -1,0 +1,20 @@
+{
+    "name": "hyx-ui-theme-default",
+    "version": "1.0.0",
+    "description": "hyx组件库主题样式",
+    "main": "gulpfile.js",
+    "scripts": {
+        "dev": "gulp",
+        "build": "gulp build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "HYX",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    },
+    "dependencies": {
+        "gulp-csso": "^4.0.1",
+        "gulp-sass": "^4.1.0"
+    }
+}

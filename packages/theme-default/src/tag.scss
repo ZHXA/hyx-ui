@@ -1,0 +1,117 @@
+@import "./mixins/mixins.scss";
+@include b(tag) {
+    display: inline-block;
+    padding: 8px 15px;
+    //font-size: 0;
+    //line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    outline: 0;
+    line-height: 1;
+    color: #3f536e;
+    position: relative;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    @include e(desc) {
+        display: inline-block;
+        min-width: 14px;
+        font-size: 12px;
+    }
+    &:hover {
+        @include b(icon) {
+            opacity: 1;
+        }
+        @include when(border) {
+            border: 2px solid $tag-border-color;
+            //padding: 6px 14px ;
+        }
+    }
+    @include m(default) {
+        background: #E6EEF5;
+        color: $color-grey;
+        border: 1px solid $color-grey-light;
+    }
+    @include m(success) {
+        background: $color-success;
+        color: $color-grey-light;
+    }
+    @include m(danger) {
+        background: $color-danger-light;
+        color: $color-grey-light;
+    }
+    @include m(warning) {
+        background: $color-warning-light;
+        color: $color-grey-light;
+    }
+    @include m(info) {
+        background: $color-info-light;
+        color: $color-grey-light;
+    }
+    @include m(primary) {
+        background: $color-primary;
+        color: $color-grey-light;
+    }
+    @include m(blue) {
+        background: $color-blue-light;
+        color: $color-grey-light;
+    }
+    @include m(plain) {
+        background: $color-plain;
+        color: $color-plain-color;
+        border: 1px solid $color-plain-border;
+    }
+    @include when(round) {
+        padding: 8px 14px;
+        border-radius: 16px;
+        &>.hyx-icon {
+            top: -6px;
+            right: -4px;
+        }
+    }
+    @include m(mini) {
+        @include when(round) {
+            font-size: 12px;
+            padding: 7px 12px;
+            border-radius: 14px;
+        }
+    }
+    @include b(icon) {
+        color: #ffffff;
+        position: absolute;
+        font-size: 12px;
+        right: -8px;
+        top: -10px;
+        opacity: 0;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        opacity: 0;
+        &::before {
+            color: #ffffff;
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            margin-top: -8px;
+            margin-right: -8px;
+        }
+        @include m(primary) {
+            background: $primary-color;
+        }
+        @include m(success) {
+            background: $color-success;
+        }
+        @include m(danger) {
+            background: $color-danger;
+        }
+        @include m(warning) {
+            background: $color-warning;
+        }
+        @include m(info) {
+            background: $color-info;
+        }
+    }
+}

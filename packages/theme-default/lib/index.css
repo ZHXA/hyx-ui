@@ -1,0 +1,37 @@
+@import "button.css";
+
+/* @import "icon.css"; */
+
+@import "margin.css";
+@import "tag.css";
+@import "transiton.css";
+@import "card.css";
+@import "audio.css";
+@import "video.css";
+@import "limit.css";
+@import "text-ellipsis.css";
+@import "checked-card.css";
+@import "phone.css";
+@import "space.css";
+@import "fixed-menu.css";
+@import "pull-up-menu.css";
+@import "media-box.css";
+@import "media.css";
+@import "button-ellipsis.css";
+@import "tabs.css";
+@import "swiper.css";
+@import "template.css";
+@import "img.css";
+@import "fold.css";
+@import "chat.css";
+@import "bubble.css";
+@import "action.css";
+@import "upload.css";
+@import "state.css";
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

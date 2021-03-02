@@ -1,0 +1,116 @@
+$primary-color:#3199F5;
+$primary-color-light:#E0F0FF;
+$primary-color-dark:#3a8ee6;
+
+
+
+// 按钮的常规边框颜色
+$border-color-gray:#dcdfe6;
+
+$color-primary:#3199F5;
+$color-primary-light:#E0F0FF;
+$color-primary-dark:#3a8ee6;
+
+
+
+
+
+$color-success:#30C288;
+$color-success-light:#DAF7EB;
+$color-success-dark:#33CE90;
+
+
+$color-info:#909399;
+$color-info-light:#a6a9ad;
+$color-info-dark:#82848a;
+
+
+$color-warning:#FFAF00;
+$color-warning-light:#FAF4E6;
+$color-warning-dark:#FFAF00;
+
+$color-danger:#FF404F;
+$color-danger-light:#f78989;
+$color-danger-dark:#dd6161;
+
+
+$color-grey:#787C80;
+$color-grey-light:#E6EEF5;
+$color-grey-dark:#3f536e;
+
+$color-offline:#A8AEB3;
+$color-offline-light:#F0F3F5;
+$color-offline-dark:#A8AEB3;
+
+
+// Animation
+$transition-time : .2s;
+$animation-time : .3s;
+
+/**
+tag
+ */
+$color-blue:#EBF6FF;
+$color-blue-dark:#000000;
+$color-blue-light:#C8C9CC;
+
+$color-plain:#FFFFFF;
+$color-plain-color:#000000;
+$color-plain-border:#C8C9CC;
+
+$tag-border-color:#3199F5;
+
+/**
+tabs
+ */
+$tabs-bg: #EBF6FF;
+$tabs-color:#707A80;
+
+
+/**
+font/
+ */
+
+$font-size:14px;
+
+$font-family: PingFangSC-Regular, PingFang SC;
+
+/**
+template
+ */
+$border-color--grey:#EDEFF0;
+$border-color--primary:#3199F5;
+
+
+/**
+/chat
+ */
+
+$bubble-left-border-radius:8px;
+$bubble-left-bg:#D4D7D9;
+$chat-bg:#FAFBFC;
+$chat-container-border:#D4D7D9;
+$chat-time-color:#909599;
+$chat-time-font-size:12px;
+$bubble-right-bg:#D6ECFF;
+
+
+/**
+card
+ */
+$card-title-color:#303233;
+
+/* Break-point
+--------------------------*/
+$--sm: 768px !default;
+$--md: 992px !default;
+$--lg: 1200px !default;
+$--xl: 1920px !default;
+
+$--breakpoints: (
+  'xs' : (max-width: $--sm - 1),
+  'sm' : (min-width: $--sm),
+  'md' : (min-width: $--md),
+  'lg' : (min-width: $--lg),
+  'xl' : (min-width: $--xl)
+);
